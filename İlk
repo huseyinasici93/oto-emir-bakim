@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>Oto Emir | QR Kodlu Bakım Defteri</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 24px 18px;
+    }
+    header h1 { margin: 0 0 8px; font-size: 25px; }
+    header p { margin: 0; color: #d1d5db; }
+    main { max-width: 700px; margin: auto; padding: 20px 16px; }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px #0000000a;
+    }
+    h2 { margin-top: 0; font-size: 19px; }
+    .status {
+      display: inline-block;
+      padding: 7px 11px;
+      background: #dcfce7;
+      color: #166534;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+    .feature { padding: 10px 0; border-bottom: 1px solid #e5e7eb; }
+    .feature:last-child { border-bottom: 0; }
+    footer { text-align: center; padding: 20px; color: #6b7280; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OTO EMİR</h1>
+    <p>QR Kodlu Araç Bakım Defteri</p>
+  </header>
+  <main>
+    <section class="card">
+      <span class="status">Uygulama arayüzü hazır</span>
+      <h2>Hoş geldiniz</h2>
+      <p>Araçların bakım geçmişini tek noktadan takip edin.</p>
+    </section>
+    <section class="card">
+      <h2>Sistem özellikleri</h2>
+      <div class="feature">🚗 Araç kayıtları</div>
+      <div class="feature">🔧 Bakım ve parça geçmişi</div>
+      <div class="feature">📱 Araçlara özel QR kodlar</div>
+      <div class="feature">🔐 Personel giriş sistemi</div>
+    </section>
+    <section class="card">
+      <h2>Oto Emir</h2>
+      <p>Bakım kayıtlarınızı dijital ortamda düzenlemek için tasarlandı.</p>
+      <p>Veritabanı bağlantısı ve kullanıcı giriş ekranı sonraki kurulum adımlarında eklenecektir.</p>
+    </section>
+  </main>
+  <footer>© Oto Emir · QR Kodlu Bakım Defteri</footer>
+</body>
+</html>
