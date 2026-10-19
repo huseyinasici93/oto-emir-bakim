@@ -45,3 +45,5 @@
 .vehicle-form input:not([type=date]):not([type=number]),.vehicle-form textarea{text-transform:uppercase}.vehicle-info,.creator-label,.qr-details,.record-detail,.public-wrap>.public-card,.public-wrap>.history{text-transform:uppercase}.qr-report .qr-details a{text-transform:none}
 
 .history-entry{min-width:0;flex:1;display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.history-entry .record-detail{flex:1;min-width:0}.edit-maintenance-button{flex:none;padding:9px 12px;background:#f2f5f1;border:1px solid var(--line)}@media(max-width:600px){.history-entry{flex-direction:column}.edit-maintenance-button{align-self:flex-start}}
+
+.customer-card{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.customer-card h2{margin:8px 0 0}.customer-card .button{margin-top:0}
