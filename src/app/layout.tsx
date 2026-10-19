@@ -4,5 +4,5 @@ import ContactCard from './ContactCard';
 
 export const metadata: Metadata = { title: 'Oto Emir | Dijital Bakım Defteri', description: 'Araç bakım geçmişinizi QR kod ile güvenle takip edin.' };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="tr"><body>{children}<ContactCard /></body></html>;
+  return <html lang="tr"><body>{children}</body></html>;
 }
