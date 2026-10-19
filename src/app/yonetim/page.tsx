@@ -1,6 +1,4 @@
-tab: 25, Title: "raw.githubusercontent.com/huseyinasici93/oto-emir-bakim/refs/heads/main/src/app/yonetim/page.tsx", URL: "https://raw.githubusercontent.com/huseyinasici93/oto-emir-bakim/refs/heads/main/src/app/yonetim/page.tsx".
-0 AXWebArea raw.githubusercontent.com/huseyinasici93/oto-emir-bakim/refs/heads/main/src/app/yonetim/page.tsx
-	1 text 'use client';
+'use client';
 import { FormEvent, useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase';
 import { Activity, CarFront, LogOut, Plus, Search, Wrench } from 'lucide-react';
